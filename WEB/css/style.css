@@ -1,0 +1,1071 @@
+body {
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+}
+
+/* MENU DE NAVEGACIÓN */
+
+.logo {
+    width: auto;
+    height: 6vw;
+}
+
+.navbar {
+    margin-top: 2.5vw;
+}
+
+#main{width: 75%;
+    margin-left: auto;
+    margin-right: auto;}
+
+.li-nav p{
+    text-transform: lowercase;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.li-nav a:hover{
+    color: #f0ff24;
+}
+
+
+nav {
+    float: center;
+    background-color: linear-gradient(to right, #ff5757, #8c52ff);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    margin-top: 14px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: black;
+    animation-delay: 3000ms
+}
+
+
+nav ul div li a {
+    color: black;
+    align-items: center;
+}
+
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffe224 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #f0ff24;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:18px 24px;
+    border-radius: 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffe224 5%, #ffec64 100%);
+	background-color:#ffe224;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
+nav ul div li a:hover {
+    color: black;
+}
+
+nav ul div li a p {
+    margin-top: -0.05vw;
+    font-size: 1vw;
+}
+
+
+/* PARTE INICIO */
+
+
+.inicio {
+    margin-bottom: 300px;
+}
+
+.mitextoespecial{text-align: center;
+    font-size: 34px;
+    letter-spacing: -0.03em;
+    text-transform: lowercase;
+    font-weight: 200;
+}
+
+
+/* PAGINA APP */
+
+.nuestrapp {
+    margin-bottom: 5vw;
+    position: relative;
+}
+
+.nuestrapp h1 {
+    font-style: normal;
+    font-family: 'Montserrat', "Open Sans", Helvetica, Arial, sans-serif;
+    padding-top: 4vw;
+}
+
+h1{
+    text-align: left;
+    text-transform: lowercase;
+    font-size: 120px;
+    letter-spacing: -0.07em;
+    margin-bottom: 0px;
+}
+
+.app {
+    margin-bottom: 20vw;
+}
+
+.quadroapp {
+    padding: 2vw;
+    height: fit-content;
+    width: 25vw;
+    float: left;
+    color: black;
+    background-color: white;
+    border: white;
+    border-radius: 3vw;
+    font-size: 20px;
+    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.3), 0 0.6rem 0.5rem rgba(0, 0, 0, 0.3);
+
+}
+
+.viñeta1 {
+    position: relative;
+    margin-top: 200px;
+    visibility: hidden;
+    transition: all 2s ease;
+    transform-origin: right;
+    transform: scale(0);
+}
+
+.viñeta2 {
+    justify-content: center;
+    position: relative;
+    margin-top: -50px;
+    margin-left: -130px;
+    visibility: hidden;
+    transition: all 2s ease;
+    transform-origin: bottom;
+    transform: scale(0);
+}
+
+.viñeta3 {
+    position: relative;
+    float: right;
+    margin-top: -530px;
+    visibility: hidden;
+    transition: all 2s ease;
+    transform-origin: left;
+    transform: scale(0);
+}
+
+.viñeta4 {
+    position: relative;
+    margin-top: -260px;
+    visibility: hidden;
+    transition: all 2s ease;
+    transform-origin: right;
+    transform: scale(0);
+}
+
+.viñeta5 {
+    position: relative;
+    float: right;
+    margin-top: -260px;
+    visibility: hidden;
+    transition: all 2s ease;
+    transform-origin: left;
+    transform: scale(0);
+}
+
+.viñeta6 {
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 4vw;
+    visibility: hidden;
+    transition: all 2s ease;
+    transform-origin: right;
+    transform: scale(0);
+}
+
+.viñeta7 {
+    position: relative;
+    margin-top: 2vw;
+    margin-right: 4vw;
+    float: right;
+    visibility: hidden;
+    transition: all 2s ease;
+    transform-origin: left;
+    transform: scale(0);
+}
+
+.quadroapp h3 {
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.quadroapp p {
+    font-size: 15px;
+    margin-bottom: -8px;
+}
+
+
+/*  PÁGINA DE QUIENES SOMOS*/
+
+.quiensomos {
+    margin-top: 50px;
+    padding-bottom: -1em;
+}
+
+.p-somos {
+    font-size: 18px;
+    padding-bottom: 1em;
+}
+
+.li-somos {
+    text-align: justify;
+    font-size: 22px;
+    padding-bottom: 1em;
+    font-family: Helvetica, sans-serif;
+}
+
+.p-espacio {
+    margin-top: 50px;
+    margin-bottom: -2em;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.section1 {
+    margin-top: -3em;
+}
+
+/* PARALLAX*/
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+
+
+.content-asset p {
+    margin: 0 auto;
+}
+
+.breadcrumb {
+    display: none;
+}
+
+/* Helpers */
+/**************************/
+.margin-top-10 {
+    padding-top: 10px;
+}
+
+.margin-bot-10 {
+    padding-bottom: 10px;
+}
+
+/* Typography */
+/**************************/
+#parallax-world-of-ugg p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {
+    padding: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#parallax-world-of-ugg .title h1 {
+    font-size: 35px;
+    letter-spacing: 8px;
+}
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {
+    padding: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+    font-size: 85px;
+}
+
+#parallax-world-of-ugg .block-gray {
+    padding: 60px;
+}
+
+#parallax-world-of-ugg .section-overlay-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.70;
+}
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-two {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    float: left;
+    position: inherit;
+    width: 100%;
+    background-image: url("../IMG/1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right right;
+}
+
+#parallax-world-of-ugg .parallax-three {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url("../IMG/3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {
+    border-bottom: 1px solid black;
+    width: 150px;
+    margin: 0 auto;
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+    #parallax-world-of-ugg .block {
+        padding: 40px;
+        width: 620px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #parallax-world-of-ugg .block {
+        padding: 30px;
+        width: 420px;
+    }
+
+    #parallax-world-of-ugg h2 {
+        font-size: 30px;
+    }
+
+    #parallax-world-of-ugg .block {
+        padding: 30px;
+    }
+
+    #parallax-world-of-ugg .parallax-one,
+    #parallax-world-of-ugg .parallax-two,
+    #parallax-world-of-ugg .parallax-three {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #parallax-world-of-ugg .block {
+        padding: 30px 15px;
+        width: 290px;
+    }
+}
+
+/*  PAGINA CONTACTO   */
+
+.contac {
+    font-style: normal;
+    font-family: 'Montserrat', "Open Sans", Helvetica, Arial, sans-serif;
+    padding-top: 4vw;
+    margin-left: 5vw;
+}
+
+.contacto {
+    padding: 5vw;
+    text-align: justify;
+    display: inline-flex;
+}
+
+.contacto h2 {
+    margin-bottom: 2em;
+}
+
+.viasc {
+    padding-right: 5vw;
+    width: 30vw;
+    height: fit-content;
+    font-size: 25px;
+}
+
+.viasc-p {
+    margin-top: -0.5em;
+    margin-bottom: 2em;
+}
+
+.quadrocontact {
+    padding: 1vw;
+    height: fit-content;
+    width: 31vw;
+    float: right;
+    color: black;
+    background-color: white;
+    border: white;
+    border-radius: 3vw;
+    margin-top: -3.7em;
+    font-size: 20px;
+    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.452), 0 0.9rem 1.7rem rgba(0, 0, 0, 0.452);
+}
+
+.quadrocontact div {
+    padding: 1vw;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: 18px;
+}
+
+label {
+    display: inline-block;
+
+}
+
+.q-mail {
+    margin-bottom: -1vw;
+}
+
+.q-telf {
+    margin-bottom: -1vw;
+}
+
+.email {
+    height: 2em;
+}
+
+.NTelef {
+    height: 2em;
+}
+
+.comen {
+    height: 10vw;
+}
+
+.botoncontact {
+    box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffe224 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #f0ff24;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 24px;
+    border-radius: 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+    margin-left: 19.5vw;
+    margin-top: 1vw;
+}
+
+.iconosig {
+    text-align: center;
+    height: 1.5em;
+    width: 2em;
+    margin-top: -10px;
+}
+
+/* POP IN */
+
+.container {
+    display: flex;
+    padding: 5em;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    height: 10vh;
+    width: 20em;
+    visibility: hidden;
+}
+
+.popup {
+    background-color: white;
+    text-align: center;
+    color: black;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.2);
+    padding: 3em;
+}
+
+.botcerrar {
+    cursor: pointer;
+}
+
+.popup p {
+    text-align: center;
+}
+
+
+/*Colores de fondo*/
+
+.bg-1 {
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+}
+
+.bg-2 {
+    background: linear-gradient(90deg, rgba(0, 83, 33, 1) 0%, rgba(215, 198, 1, 1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IPHONE*/
+
+* {
+    scroll-behavior: smooth;
+    transition: .8s;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins-Regular.ttf);
+}
+
+.iphone {
+    position: relative;
+    justify-content: center;
+    transition: .8s;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    margin-top: 17vw;
+    padding-left: 21px;
+  
+}
+
+/* .application-menu {
+    transform: scale(1.6);
+} */
+
+/* FORMA IPHONE */
+
+.iphone-frame {
+    background-color: #fff;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    width: 260px;
+    border: 8px solid #000;
+    border-radius: 40px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 0px #333;
+}
+
+/* FORMA NOTCH IPHONE */
+
+.iphone-frame .norch {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 24px;
+    width: 100px;
+    background-color: #000;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.norch .rounded {
+    position: relative;
+}
+
+.norch::before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    height: 4px;
+    width: 30px;
+    border-radius: 10px;
+    border: 0.03em solid rgb(51, 51, 51, 0.479);
+    box-shadow: inset 0px 0px 3px 0px rgb(51, 51, 51, 0.712);
+}
+
+.norch::after {
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+.norch .rounded::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    /* background-color: #e2b64f; */
+    top: 0;
+    height: 20px;
+    width: 20px;
+    z-index: 1;
+    border-top-right-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 1px -10px 0px 0px #000;
+}
+
+
+/* FONDO DE IPHONE */
+
+.app-container .bg-img .bg-frame {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+}
+
+
+/* NAVEGACIO IPHONE */
+
+.nav {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    height: 30px;
+    left: 0;
+    z-index: 101;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .right {
+    padding-right: 15px;
+}
+
+.nav .right ion-icon {
+    color: #fff;
+    font-size: 14px;
+}
+
+.active {
+    z-index: 199;
+}
+
+.lock-screen {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    transition: .8s;
+    overflow: hidden;
+    left: 0;
+    height: 0%;
+    width: 100%;
+}
+
+.lock-screen.active {
+    height: 100% !important;
+}
+
+.lock-screen .time {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.lock-screen .time h1 {
+    font-size: 50px;
+    height: 60px;
+    color: rgb(255, 255, 255, 0.829);
+}
+
+.lock-screen .time span {
+    font-size: 15px;
+    color: rgb(255, 255, 255, 0.829);
+
+}
+
+.scr-lock-nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scr-lock-nav button {
+    margin: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+.scr-lock-nav button.r-deg {
+    transform: rotate(-45deg);
+}
+
+
+/* BOTO INICIAR APLICACIO */
+
+.button {
+    position: absolute;
+    bottom: 5px;
+    height: 2px;
+    border-radius: 20px;
+    width: 90px;
+    left: 50%;
+    z-index: 102;
+    background-color: #fff;
+    transform: translateX(-50%);
+}
+
+.open-button {
+    position: center;
+    font-size: 10px;
+    color: #fff;
+    height: 25vw;
+    width: 12.2vw;
+    padding: 2px 5px;
+    cursor: pointer;
+    left: 50%;
+}
+
+.open-button img {
+    margin-top: 180px;
+    margin-left: 12px;
+    height: 85px;
+    width: auto;
+}
+
+
+/* menu d'aplicacions */
+
+.application-menu {
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: scale(5);
+    visibility: hidden;
+}
+
+.application-menu.active {
+    transform: scale(1);
+    visibility: visible;
+}
+
+/* MENU DE NAVEGACIO, MENU D'ABAIX */
+
+.bottom-navigation {
+    position: absolute;
+    bottom: 3px;
+    width: 220px;
+    height: fit-content;
+    left: 0;
+    margin: 6px;
+    border-radius: 20px;
+    padding: 6px 6px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bottom-navigation .button-app {
+    width: fit-content;
+    line-height: 48px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    font-size: 26px;
+
+}
+
+/* SLIDES ENTRE PAGINES */
+
+.slide-1 {
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    transition: .7s;
+    left: 0;
+}
+
+#slide_2 {
+    transform: translateX(300px) !important;
+}
+
+/* ICONES */
+
+.slide-1 .icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    transition: .8s;
+}
+
+/* BOTO DE LA ICONA */
+
+.slide-1 .icon button {
+    height: 50px;
+    cursor: pointer;
+    width: 50px;
+    font-size: 25px;
+    transition: .8s;
+    border: 0;
+    line-height: 20px;
+    border-radius: 15px;
+}
+
+/* lletres icones */
+
+.slide-1 .icon div {
+    font-size: 8px;
+    margin-top: 7px;
+    color: #fff;
+}
+
+
+/* APLCIACIONS */
+
+.applications {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .7s;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+}
+
+/* SECCIONS APPLIACIONS, CADA LINEA */
+
+.icon-sect {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.icon-sect-3 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.animate-lock-screen {
+    height: 0;
+    transition: .8s;
+    overflow: hidden;
+}
+
+
+
+/* TOTES LES ICONES */
+
+.apple-tv {
+    background-color: rgb(243, 13, 13);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+.home {
+    color: #deb805;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+.button-app.message {
+    background-color: #adec43;
+    color: #fff;
+}
+
+.icon .message {
+    background-color: #adec43 !important;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+.xbox-app {
+    background-color: green;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+.playstation-app {
+    background-image: linear-gradient(blue, #000 180%);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+.appstore {
+    background-image: linear-gradient(#4a80d2, #6525b8);
+    color: #fff;
+}
+
+.appstore2 {
+    background-image: linear-gradient(#4a80d2, #6525b8);
+    color: #fff;
+}
+
+/* NOVES IMPLEMENTACIONS */
+
+.xbox {
+    margin-left: 2vw;
+}
+
+.play {
+    margin-right: 2vw;
+}
+
+.apple {
+    margin-bottom: -1vw;
+}
+
+/* NOVES ICONES  */
+
+
+.apple-tv i {
+    color: white;
+    font-size: 30px;
+}
+
+.home i {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.message i {
+    color: white;
+    font-size: 30px;
+}
+
+.xbox-app i {
+    color: white;
+    font-size: 30px;
+}
+
+.playstation-app i {
+    color: white;
+    font-size: 30px;
+}
+
+.appstore i {
+    font-size: 35px;
+    margin-top: 7px;
+    align-items: center;
+}
+
+.appstore2 i {
+    font-size: 35px;
+    margin-top: 7px;
+    align-items: center;
+}
+
+/* IMAGEN DENTRO APP */
+
+.icon-sect img {
+    width: 150px;
+    margin-bottom: -40px;
+}

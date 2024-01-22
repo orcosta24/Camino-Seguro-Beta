@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style3.css">
+    <title>Regístrate</title>  
+</head>
+<body>
+
+<div id="main">
+    <nav>
+        <ul>
+            <li class="li-nav"><a><img class="logo" src="../IMG/logo2_sinfodo.png" alt=""></a></li>
+            <li class="li-nav"><a href="../HTML/index.html#inici"><p style="text-transform: lowercase;
+                font-weight: 200;
+                font-size: 18px;">INICIO</p></a></li>
+            <li class="li-nav"><a href="../HTML/index.html#nuestraapp"><p style="text-transform: lowercase;
+                font-weight: 200;
+                font-size: 18px;">NUESTRA APP</p></a></li>
+            <li class="li-nav"><a href="../HTML/index.html#quiensms"><p style="text-transform: lowercase;
+                font-weight: 200;
+                font-size: 18px;">¿QUIENES SOMOS?</p></a></li>
+            <li class="li-nav"><a href="../HTML/index.html#contacto"><p style="text-transform: lowercase;
+                font-weight: 200;
+                font-size: 18px;
+                margin-right: 205px;">CONTACTO</p></a></li>
+
+            
+                <li><a href="iniciosesion.html"><a href="../HTML/iniciosesion.html" class="myButton">INICIAR SESIÓN</a></li>
+                <li><a href="registro.html"><a href="../HTML/registro.html" class="myButton">REGISTRATE</a></li>
+            
+        </ul>
+    </nav>
+
+    <div class="titulo">
+    <h1 class="inici">REGÍSTRATE</h1>
+    </div>
+
+    <div class="quadro">
+        <form  method="post" action="../PHP/Registrarse.php">
+            <table> 
+                <tr>
+                    <td>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="Nombre" name="Nombre" required><br>
+                    </td>
+                    <td>
+                        <label for="Apellidos">Apellidos:</label>
+                        <input type="text" id="Apellidos" name="Apellidos" required><br>
+                    </td>
+                    <td>
+                        <label for="Contrasena">Crea tu Contraseña:</label>
+                        <input type="text" id="Contrasena" name="Contrasena" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Correo_Electronico">Correo Electronico:</label>
+                        <input type="text" id="Correo_Electronico" name="Correo_Electronico" required><br>
+                    </td>
+                    <td>
+                        <label for="Dirección">Dirección:</label>
+                         <input type="text" id="Dirección" name="Dirección" required><br>
+                    </td>
+                    <td>
+                        <label for="Código_postal">Código postal:</label>
+                        <input type="text" id="Codigo_postal" name="Codigo_postal" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Numero_Telefono">Nº Teléfono:</label>
+                        <input type="text" id="Numero_Telefono" name="Numero_Telefono" required><br>
+                    </td>
+                    <td>
+                        <label for="DNI">DNI/NIE/Pasaporte:</label>
+                <input type="text" id="DNI" name="DNI" required><br>
+                    </td>
+                    <td>
+                        <label for="Repite_la_contraseña:">Repite la contraseña:</label>
+                        <input type="text" id="#" name="#" required><br>
+                    </td>
+                </tr>
+            </table>
+        
+            <div>
+                <input type="checkbox"> He leído y acepto los términos y condiciones legales <br>
+                <input type="checkbox" class="checkbox"> Acepto el contro de tratamitno de dato, y me comprometo a hacer un buen uso de la app
+            </div>
+
+            <ul class="botons">
+                <li>
+                    <div>
+                        <input type="hidden" name="registro" value="1">
+                        <input class="boto-enviar" type="submit" name="submit" value="CREAR CUENTA">                     
+                    </div>
+                </li>
+
+                <li>
+                    <div class="creac">
+                        <button>
+                            <a href="../HTML/iniciosesion.html">
+                                ¿YA TIENES UNA CUENTA? <br>
+                                INICIA SESIÓN     
+                            </a>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+
+            <style>
+                input[type="submit"]{
+                    box-shadow: 0px 1px 0px 0px #fff6af;
+                    background:linear-gradient(to bottom, #ffec64 5%, #ffe224 100%);
+                    background-color:#ffec64;
+                    border-radius:6px;
+                    border:1px solid #f0ff24;
+                    display:inline-block;
+                    cursor:pointer;
+                    color: black;
+                    font-family:Arial;
+                    font-size:15px;
+                    font-weight:bold;
+                    padding:27px 24px;
+                    border-radius: 15px;
+                    text-decoration:none;
+                    text-shadow:0px 1px 0px #ffee66;
+                    margin-left: 4vw;
+                    margin-right: auto;
+                }
+            </style>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>

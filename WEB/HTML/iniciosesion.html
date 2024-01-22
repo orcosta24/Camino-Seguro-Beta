@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style2.css">
+    <title>Iniciar Sesión</title>  
+</head>
+<body>
+
+<div id="main">
+
+    <nav>
+        <ul>
+            <li class="li-nav"><a><img class="logo" src="../IMG/logo2_sinfodo.png" alt=""></a></li>
+            <li class="li-nav"><a href="../HTML/index.html#inici"><p style="text-transform: lowercase;
+                font-weight: 200;
+                font-size: 18px;">INICIO</p></a></li>
+            <li class="li-nav"><a href="../HTML/index.html#nuestraapp"><p style="text-transform: lowercase;
+                font-weight: 200;
+                font-size: 18px;">NUESTRA APP</p></a></li>
+            <li class="li-nav"><a href="../HTML/index.html#quiensms"><p style="text-transform: lowercase;
+                font-weight: 200;
+                font-size: 18px;">¿QUIENES SOMOS?</p></a></li>
+            <li class="li-nav"><a href="../HTML/index.html#contacto"><p style="text-transform: lowercase;
+                font-weight: 200;
+                font-size: 18px;
+                margin-right: 205px;">CONTACTO</p></a></li>
+
+            
+                <li><a href="iniciosesion.html"><a href="../HTML/iniciosesion.html" class="myButton">INICIAR SESIÓN</a></li>
+                <li><a href="registro.html"><a href="../HTML/registro.html" class="myButton">REGISTRATE</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- PAGINA INICIO SESIÓN -->
+    
+    <div class="iniciarsesion">
+        
+        <div class="nuestrapp">
+            <h1>INICIAR SESIÓN</h1>
+        </div>
+
+        <div class="quadro">
+
+            <form method="post" action="../PHP/IniciarSesion.php">
+                <div>
+                    <div class="q-mail">
+                        <label  class="label-form" for="Correo_Electronico">Correo Electrónico</label>
+                        <input type="text" id="Correo_Electronico" name="Correo_Electronico" required>
+                    </div>
+        
+                    <div class="q-telf">
+                        <label for="Contrasena">Contraseña:</label>
+                        <input type="text" id="Contrasena" name="Contrasena" required>
+                    </div>
+                    
+                    <div class="contenedor-recu">
+                        <button class="bot-ini-recu">¿HAS OLVIDADO TU CONTRASEÑA?</button>
+                        <button class="bot-regis"><a href="../HTML/registro.html">¿NO TIENES CUENTA?</a></button>
+                        <input type="hidden" name="registro" value="1">
+                        <input type="submit" name="submit" value="INICIAR SESIÓN">
+                    </div>
+    
+                </div>
+                
+                <style>
+                    input[type="submit"]{
+                        box-shadow: 0px 1px 0px 0px #fff6af;
+                        background:linear-gradient(to bottom, #ffec64 5%, #ffe224 100%);
+                        background-color:#ffec64;
+                        border-radius:6px;
+                        border:1px solid #f0ff24;
+                        display:inline-block;
+                        cursor:pointer;
+                        color: black;
+                        font-family:Arial;
+                        font-size:15px;
+                        font-weight:bold;
+                        padding: 30px 24px;
+                        border-radius: 15px;
+                        text-decoration:none;
+                        text-shadow:0px 1px 0px #ffee66;
+                    }
+                </style>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    
+    <!-- PAGINA RECUPERAR CONTRASEÑA -->
+
+    <div class="recuperarcontra">
+        
+        <div class="nuestrapp">
+            <h1>RECUPERAR CONTRASEÑA</h1>
+        </div>
+
+        <div class="quadro recu">
+            <div>
+                <p>Escribe tu correo electrónico, enviaremos un correo con una nueva contraseña que podrás cambiar en ajustes</p>
+                <input type="text">
+            </div>
+
+            <button class="bot-recuperar">
+                RECUPERAR CONTRASEÑA
+            </button>
+        </div>
+
+        <div class="quadro recu-vali">
+            <div>
+                <p><b>Revisa tu correo, ¡Te hemos enviadoo un mensaje con tu nueva contraseña!</b></p>
+            </div>
+
+            <div>
+                <p>¿TE HA LLEGADO LA CONTRASEÑA?</p>
+            </div>
+
+            <div class="contenedor-recu">
+                <button class="bot-ir-ini"><a href="../HTML/iniciosesion.html">SI, INICIAR SESIÓN</a></button>
+                <button class="bot-volver-recu">NO, VOLVER A ENVIAR</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../SCRIPTS/script2.js"></script>
+</div>
+</body>
+</html>

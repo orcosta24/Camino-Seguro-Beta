@@ -1,0 +1,281 @@
+body{
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+    color: white;
+    font-family: Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+p{
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+    margin-left: 5vw;
+}
+
+
+/* MENU DE NAVEGACIÓN */
+
+.logo {
+    width: auto;
+    height: 6vw;
+}
+
+.navbar {
+    margin-top: 2.5vw;
+}
+
+#main{width: 75%;
+    margin-left: auto;
+    margin-right: auto;}
+
+.li-nav p{
+    text-transform: lowercase;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.li-nav a:hover{
+    color: #f0ff24;
+}
+
+nav {
+    float: center;
+    background-color: linear-gradient(to right, #ff5757, #8c52ff);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    margin-top: 14px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: black;
+    animation-delay: 3000ms
+}
+
+
+nav ul div li a {
+    color: black;
+    align-items: center;
+}
+
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffe224 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #f0ff24;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:18px 24px;
+    border-radius: 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffe224 5%, #ffec64 100%);
+	background-color:#ffe224;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
+
+nav ul div li a:hover {
+    color: black;
+}
+
+nav ul div li a p {
+    margin-top: -0.05vw;
+    font-size: 1vw;
+}
+
+/* PARTE INICIO */
+
+.nuestrapp {
+    margin-bottom: 5vw;
+    position: relative;
+}
+
+.nuestrapp h1 {
+    font-style: normal;
+    font-family: 'Montserrat', "Open Sans", Helvetica, Arial, sans-serif;
+    padding-top: 4vw;
+}
+
+h1{text-align: left;
+    text-transform: lowercase;
+    font-size: 120px;
+    letter-spacing: -0.07em;
+    margin-bottom: 0px;}
+
+.inicio p{
+    font-size: 1.7vw;
+    margin-bottom: 7vw;
+}
+
+/* EDITAR CAJAS */
+
+.quadro{
+    padding: 1vw;
+    height: fit-content;
+    width: 31vw;
+    color: black;
+    background-color: white;
+    border: white;
+    border-radius: 3vw;
+    margin-top: -3.7em;
+    font-size: 20px;
+    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.452), 0 0.9rem 1.7rem rgba(0, 0, 0, 0.452);
+    margin-bottom: 5em;
+    margin-left: 30%;
+}
+
+.quadro div{
+    text-align: start;
+}
+
+.quadro div{
+    margin: 2em 1em;
+}
+
+.quadro-ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    padding-top: 2em;
+    margin-left: -2em;
+}
+
+.quadro-ul li{
+    display: inline-block;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    padding-right: 0.9em;
+}
+
+.contenedor-recu {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  
+
+
+/* botones */
+
+button{
+    box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffe224 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #f0ff24;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding: 12px 24px;
+    border-radius: 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+
+button a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.bot-ini-recu{
+    margin-right: 1vw;
+}
+
+.bot-regis{
+    margin-right: 1vw;
+}
+
+
+.bot-ini{
+    margin-top: -0.5vw;
+}
+
+.bot-recuperar{
+    margin-top: -0.5vw;
+    margin-bottom: 1vw;
+    margin-left: 9vw;
+}
+
+.bot-ir-ini{
+    margin-top: -0.5vw;
+    margin-right: 1vw;
+}
+
+.bot-volver-recu{
+    margin-top: -0.5vw;
+    margin-right: 1vw;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: 18px;
+}
+
+
+/* PARA OCULTAR QUADROS SCRIPT */
+
+.iniciarsesion{
+    visibility: visible;
+    margin-bottom: -45vw;
+}
+
+.recuperarcontra{
+    margin-top: 14.2vw;
+    visibility: hidden;
+}
+
+.recu-vali{
+    visibility: hidden;
+    margin-top: -19vw;
+}
+
+label{
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+}
